@@ -1,0 +1,14 @@
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\bin\Debug\net6.0\ETrade.Repository.deps.json
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\bin\Debug\net6.0\ETrade.Repository.runtimeconfig.json
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\bin\Debug\net6.0\ETrade.Repository.dll
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\bin\Debug\net6.0\ETrade.Repository.pdb
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.csproj.AssemblyReference.cache
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.AssemblyInfoInputs.cache
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.AssemblyInfo.cs
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.csproj.CoreCompileInputs.cache
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.dll
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\refint\ETrade.Repository.dll
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.pdb
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.genruntimeconfig.cache
+C:\Users\emrem\Desktop\ETrade Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ref\ETrade.Repository.dll
