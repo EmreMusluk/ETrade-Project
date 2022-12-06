@@ -2,6 +2,8 @@ using ETrade.Dal;
 using ETrade.Entities.Concrete;
 using ETrade.Repository.Abstract;
 using ETrade.Repository.Concrete;
+using ETrade.UI.HttpResponse;
+using ETrade.Uow;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -18,6 +20,9 @@ builder.Services.AddScoped<IProductRep, ProductRep<Product>>();
 builder.Services.AddScoped<IUnitRep, UnitRep<Unit>>();
 builder.Services.AddScoped<IUserRep, UserRep<User>>();
 builder.Services.AddScoped<IVatRep, VatRep<Vat>>();
+builder.Services.AddScoped<IUow, Uow>();
+builder.Services.AddScoped<User>();
+builder.Services.AddScoped<Response>();
 
 // Add services to the container.
 

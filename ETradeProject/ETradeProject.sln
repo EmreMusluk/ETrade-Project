@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.UI", "ETrade.UI\ETrade.UI.csproj", "{714C98C7-4289-45EA-B598-1A5E5F7FD5F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.UI", "ETrade.UI\ETrade.UI.csproj", "{714C98C7-4289-45EA-B598-1A5E5F7FD5F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.Dal", "Etrade.Dal\ETrade.Dal.csproj", "{56FC20CE-3A7A-42D7-9AF1-32FFE3139E9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.Dal", "Etrade.Dal\ETrade.Dal.csproj", "{56FC20CE-3A7A-42D7-9AF1-32FFE3139E9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.Repository", "ETrade.Repository\ETrade.Repository.csproj", "{3907DD15-8ADE-4246-ABCA-8D7922553182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.Repository", "ETrade.Repository\ETrade.Repository.csproj", "{3907DD15-8ADE-4246-ABCA-8D7922553182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.Entities", "ETrade.Entities\ETrade.Entities.csproj", "{4CBFA91A-B980-4DF5-836D-D532D0B13615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.Entities", "ETrade.Entities\ETrade.Entities.csproj", "{4CBFA91A-B980-4DF5-836D-D532D0B13615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.DTO", "ETrade.DTO\ETrade.DTO.csproj", "{9E4FA827-B6FC-4C86-85D3-CDD0C78F3611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.DTO", "ETrade.DTO\ETrade.DTO.csproj", "{9E4FA827-B6FC-4C86-85D3-CDD0C78F3611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.Uow", "ETrade.Uow\ETrade.Uow.csproj", "{4379F143-5D2A-4F62-B6C7-653D3E5B8E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.Uow", "ETrade.Uow\ETrade.Uow.csproj", "{4379F143-5D2A-4F62-B6C7-653D3E5B8E91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.Core", "ETrade.Core\ETrade.Core.csproj", "{69EB5710-5A1B-4A66-B759-C941E030C1E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.Core", "ETrade.Core\ETrade.Core.csproj", "{69EB5710-5A1B-4A66-B759-C941E030C1E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
