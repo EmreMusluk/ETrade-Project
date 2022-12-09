@@ -1155,6 +1155,20 @@
             "rid": "win"
           }
         }
+      },
+      "ETrade.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ETrade.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ETrade.Entities.dll": {}
+        }
       }
     }
   },
@@ -3500,10 +3514,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ETrade.Entities/1.0.0": {
+      "type": "project",
+      "path": "../ETrade.Entities/ETrade.Entities.csproj",
+      "msbuildProject": "../ETrade.Entities/ETrade.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ETrade.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0"
@@ -3541,7 +3561,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\SEM\\Desktop\\ETrade-Project\\ETradeProject\\ETrade.Entities\\ETrade.Entities.csproj": {
+              "projectPath": "C:\\Users\\SEM\\Desktop\\ETrade-Project\\ETradeProject\\ETrade.Entities\\ETrade.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

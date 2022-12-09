@@ -1199,6 +1199,21 @@
           "bin/placeholder/ETrade.Dal.dll": {}
         }
       },
+      "ETrade.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ETrade.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ETrade.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ETrade.DTO.dll": {}
+        }
+      },
       "ETrade.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3599,6 +3614,11 @@
       "path": "../Etrade.Dal/ETrade.Dal.csproj",
       "msbuildProject": "../Etrade.Dal/ETrade.Dal.csproj"
     },
+    "ETrade.DTO/1.0.0": {
+      "type": "project",
+      "path": "../ETrade.DTO/ETrade.DTO.csproj",
+      "msbuildProject": "../ETrade.DTO/ETrade.DTO.csproj"
+    },
     "ETrade.Entities/1.0.0": {
       "type": "project",
       "path": "../ETrade.Entities/ETrade.Entities.csproj",
@@ -3609,6 +3629,7 @@
     "net6.0": [
       "BCrypt.Net-Next >= 4.0.3",
       "ETrade.Core >= 1.0.0",
+      "ETrade.DTO >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0"
@@ -3649,6 +3670,9 @@
           "projectReferences": {
             "C:\\Users\\SEM\\Desktop\\ETrade-Project\\ETradeProject\\ETrade.Core\\ETrade.Core.csproj": {
               "projectPath": "C:\\Users\\SEM\\Desktop\\ETrade-Project\\ETradeProject\\ETrade.Core\\ETrade.Core.csproj"
+            },
+            "C:\\Users\\SEM\\Desktop\\ETrade-Project\\ETradeProject\\ETrade.DTO\\ETrade.DTO.csproj": {
+              "projectPath": "C:\\Users\\SEM\\Desktop\\ETrade-Project\\ETradeProject\\ETrade.DTO\\ETrade.DTO.csproj"
             }
           }
         }

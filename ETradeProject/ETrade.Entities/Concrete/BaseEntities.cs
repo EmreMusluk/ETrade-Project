@@ -10,9 +10,9 @@ namespace ETrade.Entities.Concrete
     public class BaseEntities : IBaseTable, IAdress
     {
         public int Id { get; set; }
-        public string Street { get; set; }
-        public string Avenue { get; set; }
-        public string No { get; set; }
-        public int CountyId { get; set; }
+        public string? Street { get; set; }
+        public string? Avenue { get; set; }
+        public string? No { get; set; }
+        public int? CountyId { get; set; }
     }
 }

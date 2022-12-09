@@ -35,3 +35,5 @@ C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Uow\obj\Debug\net6.0\re
 C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Uow\obj\Debug\net6.0\ETrade.Uow.pdb
 C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Uow\obj\Debug\net6.0\ETrade.Uow.genruntimeconfig.cache
 C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Uow\obj\Debug\net6.0\ref\ETrade.Uow.dll
+C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Uow\bin\Debug\net6.0\ETrade.DTO.dll
+C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Uow\bin\Debug\net6.0\ETrade.DTO.pdb

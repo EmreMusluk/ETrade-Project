@@ -1,4 +1,5 @@
 using ETrade.Dal;
+using ETrade.DTO;
 using ETrade.Entities.Concrete;
 using ETrade.Repository.Abstract;
 using ETrade.Repository.Concrete;
@@ -23,6 +24,7 @@ builder.Services.AddScoped<IVatRep, VatRep<Vat>>();
 builder.Services.AddScoped<IUow, Uow>();
 builder.Services.AddScoped<User>();
 builder.Services.AddScoped<Response>();
+builder.Services.AddScoped<UserDTO>();
 
 // Add services to the container.
 

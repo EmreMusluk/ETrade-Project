@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using BCrypt.Net;
 using ETrade.Core;
 using ETrade.Dal;
+using ETrade.DTO;
 using ETrade.Entities.Concrete;
 using ETrade.Repository.Abstract;
 
@@ -14,57 +15,63 @@ namespace ETrade.Repository.Concrete
     public class UserRep<T> : BaseRepository<User>, IUserRep where T : class
     {
         ETradeContext _db;
+
         public UserRep(ETradeContext db) : base(db)
         {
             _db = db;
         }
 
-        public User CreateUser(User user)
+        public UserDTO CreateUser(UserDTO userDto)
         {
-            User selectedUser = _db.Set<User>().FirstOrDefault(x => x.Mail == user.Mail);
-            if (selectedUser ==null)
+            User selectedUser = Get(x => x.Mail == userDto.Mail);
+            if (selectedUser != null)
             {
-                user.Error = false;
+                userDto.Error = true;
+                userDto.Msg = "var bu.";
+                return userDto;
             }
-            else
+            if (userDto.Password.Length < 7 || !(userDto.Password.Any(char.IsLower)) || !(userDto.Password.Any(char.IsUpper)))
             {
-                user.Error = true;
+                userDto.Error = true;
+                userDto.Msg = "7 az.";
+                return userDto;
+
+            }
+            if (userDto.Password != userDto.RePassword)
+            {
+                userDto.Error = true;
+                userDto.Msg = "aynı değil";
+                return userDto;
             }
 
-            if (user.Password.Length>7 && user.Password.Length <65)
-            {
-                user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            userDto.Password = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
+            userDto.Role = "User";
 
-            }
-            else
-            {
-               return user.m
-            }
-            user.Role = "User";
-            return user;
-
+            return userDto;
         }
 
-        public User Login(string Mail, string Password)
+        public UserDTO Login(string Mail, string Password)
         {
-            User selectedUser = _db.Set<User>().FirstOrDefault(x=>x.Mail == Mail);
-            User user = new User();
+            User selectedUser = Get(x => x.Mail == Mail);
+            UserDTO user = new UserDTO();
             user.Mail = Mail;
-            if (selectedUser==null)
+
+            if (selectedUser != null)
             {
-                user.Error = true;
-            }
-            else
-            {
-                user.Error=false;
-                bool verified = BCrypt.Net.BCrypt.Verify(Password,selectedUser.Password);
-                if (verified==true)
+                user.Error = false;
+                bool verified = BCrypt.Net.BCrypt.Verify(Password, selectedUser.Password);
+                if (verified == true)
                 {
                     user.Role = selectedUser.Role;
-                    user.Id =selectedUser.Id;
+                    user.Id = selectedUser.Id;
                     user.Error = false;
                 }
                 else user.Error = true;
+            }
+            else
+            {
+                user.Msg = "Kullanıcı adı ya da şfr hatalı";
+                user.Error = true;
             }
             return user;
         }

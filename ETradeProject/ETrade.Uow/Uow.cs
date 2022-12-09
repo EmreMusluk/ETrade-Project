@@ -43,9 +43,9 @@ namespace ETrade.Uow
 
         public IVatRep _vatRep { get; private set; }
 
-        public void Commit()
+        public bool Commit()
         {
-            _db.SaveChanges();
+            return _db.SaveChanges() > 0;
         }
 
     }

@@ -33,3 +33,5 @@ C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Repository\obj\Debug\ne
 C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.pdb
 C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ETrade.Repository.genruntimeconfig.cache
 C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Repository\obj\Debug\net6.0\ref\ETrade.Repository.dll
+C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Repository\bin\Debug\net6.0\ETrade.DTO.dll
+C:\Users\SEM\Desktop\ETrade-Project\ETradeProject\ETrade.Repository\bin\Debug\net6.0\ETrade.DTO.pdb

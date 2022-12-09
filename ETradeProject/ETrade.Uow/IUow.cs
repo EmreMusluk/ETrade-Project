@@ -19,7 +19,7 @@ namespace ETrade.Uow
         IUserRep _userRep { get; }
         IVatRep _vatRep { get; }
 
-        void Commit();
+        bool Commit();
 
     }
 }

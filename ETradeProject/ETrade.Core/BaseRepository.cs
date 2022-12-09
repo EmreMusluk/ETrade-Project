@@ -1,5 +1,6 @@
 ﻿using ETrade.Dal;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace ETrade.Core
 {
@@ -42,6 +43,10 @@ namespace ETrade.Core
         {
             return Set().Find(Id);
         }
+        public T Get(Expression<Func<T, bool>> filter)
+        {
+            return Set().FirstOrDefault(filter);
+        }
 
         public List<T> List()
         {
@@ -62,7 +67,6 @@ namespace ETrade.Core
             }
             catch (Exception)
             {
-
                 return false;
             }
         }

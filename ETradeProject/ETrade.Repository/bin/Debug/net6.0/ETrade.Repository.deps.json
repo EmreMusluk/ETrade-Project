@@ -10,6 +10,7 @@
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
           "ETrade.Core": "1.0.0",
+          "ETrade.DTO": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.0"
@@ -729,6 +730,16 @@
           "ETrade.Dal.dll": {}
         }
       },
+      "ETrade.DTO/1.0.0": {
+        "dependencies": {
+          "ETrade.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "runtime": {
+          "ETrade.DTO.dll": {}
+        }
+      },
       "ETrade.Entities/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.0",
@@ -1235,6 +1246,11 @@
       "sha512": ""
     },
     "ETrade.Dal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ETrade.DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
